@@ -7,6 +7,11 @@ mcb is a simple memcached benchmark. This has been tested by using CBMC(http://w
     $ cc -Wall -lpthread -o mcb mcb.c
 
 
+## Install via nix
+
+    $ nix profile install github:junjihashimoto/mcb
+
+
 ## Usage
 
     usage: mcb -c {set|add|get} [OPTIONS]
