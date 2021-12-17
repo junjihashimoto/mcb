@@ -7,7 +7,7 @@
       let pkgs = nixpkgs.legacyPackages.x86_64-linux;
       in with pkgs ; stdenv.mkDerivation {
         name = "mcb";
-        version = "0.1";
+        version = "1.0-rc5";
         src = ./.;
         buildPhase = ''
           gcc -O3 mcb.c -o mcb -lpthread
