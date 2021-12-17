@@ -78,7 +78,7 @@ typedef bool *BoolPtr;
 #define MAX_ADDR_LEN        64
 #define MAX_PORT_NO      65535
 #define MAX_THREADS       1024
-#define MAX_COMMANDS     65535
+#define MAX_COMMANDS     16777216
 #define MAX_KEY          65535
 #define MAX_DATA_LEN     40960
 
